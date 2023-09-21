@@ -1,10 +1,15 @@
 
 import "./App.css"
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
     <div className="App">
-      <h2 className="FirstClass">Md. Mahfuzur Rahman</h2>
+
+      <Home />
+      <About />
+
     </div>
   );
 }
